@@ -132,10 +132,86 @@
                             type: 'line',
                             mode: 'horizontal',
                             scaleID: 'y-axis-1',
-                            value: '25',
+                            value: '35',
                             borderColor: 'black',
-                            borderWidth: 5
-                        }]
+                            borderWidth: 5,
+                            label:{
+								text:'Horizontal,bottom',
+								color:'#00215b',
+								borderWidth: 0,
+								anchor:'bottom'
+								}
+                            },{
+                            type: 'line',
+                            mode: 'horizontal',
+                            scaleID: 'y-axis-1',
+                            value: '-30',
+                            borderColor: 'black',
+                            borderWidth: 5,
+                            label:{
+								text:'Horizontal,Top anchor',
+								color:'#00215b',
+								borderWidth: 0,
+								anchor:'top',
+								align:'right'
+								}
+                            },{
+                            type: 'line',
+                            mode: 'horizontal',
+                            scaleID: 'y-axis-1',
+                            value: '5',
+                            borderColor: 'black',
+                            borderWidth: 5,
+                            label:{
+								text:'Horizontal,align left',
+								color:'#00215b',
+								borderWidth: 1,
+								bgColor:'white',
+								align:'left'
+								}
+                            },{
+                            type: 'line',
+                            mode: 'vertical',
+                            scaleID: 'x-axis-1',
+                            value: '35',
+                            borderColor: 'black',
+                            borderWidth: 5,
+                            label:{
+								text:'vertical top',
+								color:'white',
+								borderWidth: 1,
+								bgColor:'green',
+								align:'top',
+								anchor:'bottom'
+								}
+							},{
+                            type: 'line',
+                            mode: 'vertical',
+                            scaleID: 'x-axis-1',
+                            value: '55',
+                            borderColor: 'black',
+                            borderWidth: 5,
+                            label:{
+								text:'vertical',
+								color:'white',
+								borderWidth: 1,
+								bgColor:'black',
+								}
+							},{
+                            type: 'line',
+                            mode: 'vertical',
+                            scaleID: 'x-axis-1',
+                            value: '-30',
+                            borderColor: 'black',
+                            borderWidth: 5,
+                            label:{
+								text:'vertical bottom',
+								color:'black',
+								align:'bottom',
+								anchor:'top'
+								}
+                            }
+                        ]
                     }
                 }
             });

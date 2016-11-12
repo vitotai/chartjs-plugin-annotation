@@ -18,7 +18,17 @@ To configure the annotations plugin, you can simply add new config options to yo
 			scaleID: 'y-axis-0',
 			value: '25',
 			borderColor: 'red',
-			borderWidth: 2
+			borderWidth: 2,
+			label:{
+				text:'Horizontal,align left', // the text to display along the line
+				color:'#00215b',   // color of the text
+				borderWidth: 1,    // boder width. No border if 0 or this option not present
+				bgColor:'white',   // background color. No backgroud if this opton not present
+				align:'left',     // the text position. 
+								  // center(default), left, right for horizontal line,
+								  // center(default), top, bottom for vertical line
+				anchor:'top'     // center(default), top, bottom, the line position to the text
+			}
 		}],
 		// Defines when the annotations are drawn.
 		// This allows positioning of the annotation relative to the other
