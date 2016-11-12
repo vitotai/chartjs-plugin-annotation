@@ -40,6 +40,9 @@ To configure the annotations plugin, you can simply add new config options to yo
 }
 ```
 
+![Example Image](./doc/line-example.jpg)
+
+
 ### Line Annotations
 Vertical or horizontal lines are supported.
 
